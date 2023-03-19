@@ -2,12 +2,12 @@
 
 Projekti LAB1 (Lavdim Menxhiqi)
 
-Studentet:
+Studentët:
 
 Genti Halitaj | Kastriot Avdiaj | Blentrit Hasi
 
-Projekti rreth 1 web faqe/ web aplikacioni i bazuar ne emisionin televiziv OXYGEN SHOW
+Projekti rreth 1 web faqe/ web aplikacioni i bazuar në emisionin televiziv OXYGEN SHOW
 
-Web faqja do te kete nje "QUIZ" te cilin duhet t'a klikojme nese deshirojme t'i nenshtrohemi atij kuizi
+Web faqja do të ketë një "QUIZ" të cilin duhet t'a klikojmë nëse dëshirojme t'i nënshtrohemi atij kuizi
 
-Per t'ju nenshtruar ketij kuizi se pari duhet te jemi te regjistruar ne faqe, arsyeja eshte se do t'i mbajme te dhenat per te gjithe anetaret te cilet kane marre pjese dhe t'a krijojme nje leaderboard per shfaqen e pikeve te te gjithe anetareve.
+Për t'ju nënshtruar këtij kuizi së pari duhet të jemi të regjistruar në faqe, arsyeja është se do t'i mbajmë të dhënat për të gjithe anëtaret të cilët kanë marrë pjesë dhe t'a krijojmë një leaderboard për shfaqjen e pikëve të të gjithë anetareve.
