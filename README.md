@@ -6,7 +6,7 @@ Studentet:
 
 Genti Halitaj | Kastriot Avdiaj | Blentrit Hasi
 
-Projekti rreth 1 web faqe/ web aplikactioni i bazuar ne emisionin televiziv OXYGEN SHOW
+Projekti rreth 1 web faqe/ web aplikacioni i bazuar ne emisionin televiziv OXYGEN SHOW
 
 Web faqja do te kete nje "QUIZ" te cilin duhet t'a klikojme nese deshirojme t'i nenshtrohemi atij kuizi
 
