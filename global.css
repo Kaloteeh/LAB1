@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: monospace;
 }
 
 .navbar-nav > li{
@@ -12,14 +13,14 @@ body{
     
 }
 .img1{
-    width: 750px;
+    width: 650px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
 }
 .img2{
     position: relative;
-    margin-top: 220px;
+    margin-top: 180px;
     
 }
 .foto {
