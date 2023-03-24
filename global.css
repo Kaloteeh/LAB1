@@ -6,19 +6,31 @@ body{
     background-size: cover;
 }
 
-.navbar{
-    --bs-navbar-brand-hover-color:white;
+.navbar-nav > li{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.img1{
+    width: 800px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img2{
+    position: relative;
+    margin-top: 220px;
 }
 
-.navbar-expand-lg {
+.navbar > .container{
     justify-content: center;
 }
-
 .navbar ul li a {
     font-weight: bold;
     font-size: 25px;
     color: aliceblue;
 }
-.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+/* .navbar-nav .show > .nav-link,  */
+.navbar-nav .nav-link.active {
     color: #e9ecef;
 }
