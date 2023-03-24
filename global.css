@@ -40,3 +40,28 @@ body{
 .navbar-nav .nav-link.active {
     color: #e9ecef;
 }
+
+.footer {
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+}

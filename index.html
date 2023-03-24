@@ -8,6 +8,35 @@
     <link rel="icon" href="fotot/O2Logo.png">
     <link rel="stylesheet" href="npm/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="global.css">
+    <style>
+        .quiz-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        /* Shtojme stilimin e footerit
+        .footer {
+            background: transparent;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-family: monospace;
+            
+        }
+    </style>
 </head>
 <body>
   
@@ -27,11 +56,20 @@
   </div>
 </nav> 
 <div class="foto">
-<img class="img1" src="fotot/OxygenIcon.png"  >
-  <img class="img2" src="fotot/QUIZ.png" width="800px">
+  <img class="img1 img-fluid" src="fotot/OxygenIcon.png">
+  <img class="img2 img-fluid" src="fotot/QUIZ.png" width="800px">
 </div>
 
-    
+<div class="quiz-container">
+  <!-- Add your quiz content here -->
+</div>
+
+<div class="footer">
+  <p class="footer-facebook"><a href="#">Facebook</a></p>
+  <p class="footer-twitter"><a href="#">Twitter</a></p>
+  <p ><a href="#">Contact</a></p>
+</div>
+
 <script src="npm/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
