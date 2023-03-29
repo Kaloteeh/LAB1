@@ -1,95 +1,21 @@
-
+:root{
+    --text-color:rgb(240,248,250);
+    --active-link-color : rgb(182 ,217,243);
+}
 body{
     background-image: url(fotot/richard-horvath-_nWaeTF6qo0-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: monospace;
-}
-
-.navbar-nav > li{
-    margin-left: 150px;
-    margin-right: 150px;
-    
-}
-.img1{
-    width: 650px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-}
-.img2{
-    position: relative;
-    margin-top: 180px;
-    
-}
-.foto {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar > .container{
-    justify-content: center;
-}
-.navbar ul li a {
-    font-weight: bold;
-    font-size: 25px;
-    color: aliceblue;
-}
-
-.navbar-nav .nav-link.active {
-    color: #e9ecef;
-}
-
-.footer {
-    background: transparent;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    
-}
-
-.footer p {
     margin: 0;
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.quiz-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    padding: 0;
 }
 
 
-.footer {
-    background: transparent;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.footer p {
-    margin: 0;
-}
 
-.footer a {
-    color: #fff;
-    text-decoration: none;
-    font-family: monospace;
-    
-}
+
+
+
+
