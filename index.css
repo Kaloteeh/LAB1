@@ -1,4 +1,66 @@
 
+body{
+    height: 100vh;
+    /* nashti nuk osht e nevojshme */
+
+}
+header{
+    position: relative;
+    padding: 0.2rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: font-size 0.2s ease-in-out;
+}
+.links a:hover{
+    padding: 2px;
+    font-size: 1.8rem;
+    color:black;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.navbar .links{
+    display: flex;
+    gap: 7rem;
+}
+.navbar .toggle_btn{
+    color: aliceblue;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: none;
+}
+.action_btn{
+    background-color: rgb(44, 119, 216);
+    padding: 0.5rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+    transition: scale 0.2s ease;
+}
+.action_btn:hover{
+    background-color: rgb(121, 120, 120);
+    scale: 1.05;;
+}
+.action_btn:active{
+    scale: 0.95;
+}
 .img1{
     position: absolute;
     top: 40%;
@@ -12,28 +74,16 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-/*
-Jep hapesira ne mes 3 linqeve 
-*/
-.navbar-nav > li{
-    margin-left: 150px;
-    margin-right: 150px;
+@media only screen and (max-width :700px) {
+    .img1{
+        width: 400px;
+    }
+    .img2{
+        top: 47%;
+        width: 500px;
+    }
 }
 
-/* Me i centirat ma sakte elementet e navbarit qe jane brenda containre */
-.navbar > .container{
-    justify-content: center;
-}
-
-.navbar ul li a {
-    font-weight: bold;
-    font-size: 25px;
-    color: var(--text-color);
-}
-/* Linku aktiv (qe ndryshon pak prej te tjereve) */
-.navbar-nav .nav-link.active {
-    color: var(--active-link-color);
-}
 
 .footer {
     height: 30px;
@@ -47,11 +97,13 @@ Jep hapesira ne mes 3 linqeve
     width: 100%;
 }
 
-
-
 .footer a {
     color:var(--text-color);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.footer a:hover{
+color: aquamarine;
 }
