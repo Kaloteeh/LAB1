@@ -81,7 +81,7 @@ a{
 
 
 .dropdown_menu.open{
-    height: 240px;
+    height: 260px;
 }
 
 .dropdown_menu li{
@@ -95,7 +95,7 @@ a{
     display: flex;
     justify-content: center;
 }
-
+/* DROP DOWN MENU PER EKRANE ME TE VOGLA SE 1124 */
     @media only screen and (max-width: 1124px){
         .navbar .links,
         .navbar .action_btn{
@@ -109,6 +109,13 @@ a{
     }
     .dropdown_menu{
        display: block; 
+       width: 80%;
+       z-index: 1;
+    }
+    .dropdown_menu a:hover {
+        padding: 2px;
+        font-size: 1.5rem;
+        color:black;
     }
 }
 
