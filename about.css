@@ -1,0 +1,69 @@
+body {
+    background-image: url(fotot/richard-horvath-_nWaeTF6qo0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: monospace, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.rreth nesh {
+    
+}
+
+header {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    line-height: 2;
+    font-size: 30px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 0;
+    bottom: ;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+
+footer p {
+    margin: 0;
+}
+
+
+    
+    
+    
