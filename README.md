@@ -4,9 +4,9 @@ Projekti LAB1 (Lavdim Menxhiqi)
 
 Studentët:
 
-Genti Halitaj | Kastriot Avdiaj | Blentrit Hasi
+Gent Halitaj | Kastriot Avdiaj | Blentrit Hasi
 
-Projekti rreth 1 web faqe/ web aplikacioni i bazuar në emisionin televiziv OXYGEN SHOW
+Projekt rreth 1 web faqe/ web aplikacion i bazuar në emisionin televiziv OXYGEN SHOW
 
 Web faqja do të ketë një "QUIZ" të cilin duhet t'a klikojmë nëse dëshirojme t'i nënshtrohemi atij kuizi
 
