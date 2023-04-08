@@ -26,7 +26,7 @@ a{
 /* T'i shtohen keto vetem linqeve te cilat nuk jane aktive */
 .links a:not(.active):hover {
     padding: 2px;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     color: rgb(124, 124, 223);
   }
 
@@ -166,7 +166,7 @@ a{
 }
 .img2{
     position: absolute;
-    top: 52%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
