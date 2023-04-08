@@ -27,7 +27,7 @@ a{
 .links a:not(.active):hover {
     padding: 2px;
     font-size: 1.8rem;
-    color: black;
+    color: rgb(124, 124, 223);
   }
 
 /* Ngjyra e linkut aktiv */
@@ -72,12 +72,14 @@ a{
     transition: background-color 0.15s ease-in-out;
     transition: scale 0.2s ease;
 }
-.buttons > .action_btn:hover{
+.buttons > .action_btn:hover {
     background-color: rgb(121, 120, 120);
     scale: 1.05rem;
+    opacity: 0.9;
 }
 .buttons > .action_btn:active{
     scale: 0.95;
+    opacity: 0.6;
 }
 
 /* Menu DROPDOWN */
