@@ -202,16 +202,21 @@ a{
     font-weight: 600;
 }
 
+.sm:hover{
+    
+}
+
 
 .footer {
     height: 30px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: none;
     color:var(--text-color);
     position: absolute;
     bottom: 0;
     width: 100%;
  }
+
+ /* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) */
 .footer > .list{
     display: none;
 }
