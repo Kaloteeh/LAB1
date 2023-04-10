@@ -42,7 +42,7 @@ a{
 
 /* Ngjyra e linkut aktiv */
 .links .active{
-    color: gold;
+    color: rgb(0, 110, 255);
 }
 
 .links .active:hover {
