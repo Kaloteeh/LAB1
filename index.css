@@ -24,14 +24,9 @@ a{
 /* T'i shtohen keto vetem linqeve te cilat nuk jane aktive */
 .links a:not(.active):hover {
     padding: 2px;
-<<<<<<< Updated upstream
-    font-size: 1.4rem;
-    color: rgb(124, 124, 223);
-=======
     font-size: 1.24rem;
     /* color: rgb(124, 124, 223); */
     border-bottom: 2px solid white;
->>>>>>> Stashed changes
   }
 
 /* Ngjyra e linkut aktiv */
