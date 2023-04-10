@@ -12,7 +12,6 @@
 body{
     height: 100vh;
     /* nashti nuk osht e nevojshme */
-
 }
 header{
     position: relative;
@@ -170,7 +169,7 @@ a{
         color:black;
     }
 }
-
+/* OXYGEN QUIZ FOTOT + RESPONSIVE */
 .img1{
     position: absolute;
     top: 40%;
@@ -197,20 +196,35 @@ a{
 }
 
 
+.sm{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sm:hover{
+    
+}
+
+
 .footer {
     height: 30px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: none;
     color:var(--text-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
+ }
+
+ /* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) */
+.footer > .list{
+    display: none;
 }
 
-.footer a {
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color:var(--text-color);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
