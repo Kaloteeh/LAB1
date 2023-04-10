@@ -23,9 +23,9 @@ li{
 }
 a{
     text-decoration: none;
-    color: var(--text-color);
-    font-size: 1.18rem;
-    transition: font-size 0.1s ease-in-out;
+    color: #fff;
+    font-size: 1.10rem;
+    transition: font-size 0.2s ease-in-out;
 }
 /* .links a:hover{
     padding: 2px;
@@ -36,12 +36,16 @@ a{
 /* T'i shtohen keto vetem linqeve te cilat nuk jane aktive */
 .links a:not(.active):hover {
     padding: 2px;
-    font-size: 1.1rem;
+    font-size: 1.20rem;
     color: rgb(124, 124, 223);
   }
 
 /* Ngjyra e linkut aktiv */
 .links .active{
+    color: gold;
+}
+
+.links .active:hover {
     color: rgb(124, 124, 223);
 }
 
