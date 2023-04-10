@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
 
 body{
     height: 100vh;
@@ -14,8 +24,8 @@ li{
 a{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.15rem;
-    transition: font-size 0.2s ease-in-out;
+    font-size: 1.05rem;
+    transition: font-size 0.1s ease-in-out;
 }
 /* .links a:hover{
     padding: 2px;
@@ -26,7 +36,7 @@ a{
 /* T'i shtohen keto vetem linqeve te cilat nuk jane aktive */
 .links a:not(.active):hover {
     padding: 2px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: rgb(124, 124, 223);
   }
 
@@ -53,7 +63,7 @@ a{
 }
 .navbar .toggle_btn{
     color: aliceblue;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     cursor: pointer;
     display: none;
 }
@@ -184,7 +194,8 @@ a{
 
 .footer {
     height: 30px;
-    background: rgb(16, 22, 22);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color:var(--text-color);
     display: flex;
     justify-content: space-around;
