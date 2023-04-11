@@ -3,7 +3,11 @@
 .navbar-nav .nav-item{
    font-weight: 1000;
    font-family: 'Poppins', sans-serif;
-   margin-left: 50px;
+   margin-left: 25px;
+   margin-top: 10px;
+   
+
+   
    
 }
 
@@ -21,15 +25,16 @@
    cursor: pointer;
    text-decoration: none;
    font-size: 2rem;
+   
+  
 }
 
- bg-light {
-   background-color: #0d172a;
-}
+ 
 
 
 .navbar-expand-lg .navbar-nav {
    flex-direction:initial;
+   
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -51,7 +56,7 @@
 .animate-charcter
 {
    text-transform: uppercase;
-  background-image: linear-gradient(
+    background-image: linear-gradient(
     -225deg,
     #231557 0%,
     #44107a 29%,
@@ -61,14 +66,15 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 50% auto;
-  color: #fff;
+  color: #ffffff;
   background-clip: text;
-  text-fill-color: transparent;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: block;
-      font-size: 60px;
+      font-size: 50px;
+      margin-left: 50px;
 }
 
 @keyframes textclip {
@@ -91,6 +97,8 @@ body {
 }
 
 .button-81 {
+   width: 50%;
+   height: 50px;
    background-color: #ffffff;
    border: 0 solid #e2e8f0;
    border-radius: 1.5rem;
@@ -98,11 +106,7 @@ body {
    color: #0d172a;
    cursor: pointer;
    display: inline-block;
-   font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-   font-size: 1rem;
-   font-weight: 600;
-   line-height: 1;
-   padding: 1rem 1.6rem;
+   font-family: 'Poppins', sans-serif;
    text-align: center;
    text-decoration: none #0d172a solid;
    text-decoration-thickness: auto;
@@ -111,14 +115,16 @@ body {
    user-select: none;
    -webkit-user-select: none;
    touch-action: manipulation;
-   margin-left: 30px;
-   align-items: center;
+   margin-left: 10px;
    flex-direction: inherit;
+   margin-bottom: 50px;
+
  }
  
  .button-81:hover {
    background-color: #1e293b;
    color: #fff;
+
  }
  
  @media (min-width: 768px) {
