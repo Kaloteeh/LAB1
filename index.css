@@ -1,3 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .navbar-nav .nav-item{
-font-weight: 1000;
+   font-weight: 1000;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 50px;
+   
 }
+
+.navbar-light .navbar-brand {
+   font-size: 50px;
+   background-color: #ffffff;
+   background-image: linear-gradient(to top, #3EADCF 0%, #ABE9CD 100%);
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 2rem;
+}
+
+ bg-light {
+   background-color: #0d172a;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+   flex-direction:initial;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: black;
+   text-orientation: inherit;
+}
+
+.navbar .container-fluid {
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: black;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #006eff 67%,
+    #8cbaff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: block;
+      font-size: 60px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+ 
+body {
+
+
+   background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+.button-81 {
+   background-color: #ffffff;
+   border: 0 solid #e2e8f0;
+   border-radius: 1.5rem;
+   box-sizing: border-box;
+   color: #0d172a;
+   cursor: pointer;
+   display: inline-block;
+   font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   font-size: 1rem;
+   font-weight: 600;
+   line-height: 1;
+   padding: 1rem 1.6rem;
+   text-align: center;
+   text-decoration: none #0d172a solid;
+   text-decoration-thickness: auto;
+   transition: all .1s cubic-bezier(.4, 0, .2, 1);
+   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   margin-left: 30px;
+   align-items: center;
+   flex-direction: inherit;
+ }
+ 
+ .button-81:hover {
+   background-color: #1e293b;
+   color: #fff;
+ }
+ 
+ @media (min-width: 768px) {
+   .button-81 {
+     font-size: 1.02rem;
+     padding: 1rem 2rem;
+   }
+ }
+
