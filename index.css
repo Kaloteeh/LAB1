@@ -206,6 +206,9 @@ a{
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 15px;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* This is for the SOCIAL MEDIA text */
@@ -219,15 +222,18 @@ a{
 
 .cont{
     display: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     font-weight: 550;
     border-radius: 20px;
     position: absolute;
     top: 73%;
     left: 37.5%;
-    height:200px;
-    width: 500px;
-    background-color: rgb(14, 13, 13);
+    height:116px;
+    width: 480px;
+    background-color: rgba(14, 13, 13, 0);
+    margin-top: 60px;
+    align-items: center;
+    
 }
 
 .cont .list{
@@ -244,27 +250,57 @@ a{
     scale: 1.2rem;
 
 }
-.oxygenpress{
-    border-radius: 10px;
-    background-color: rgb(95, 95, 233);
-}
-.facebook{
-    border-radius: 10px;
-    background-color: rgb(39, 39, 221);
-}
-.instagram{
-    border-radius: 10px;
-    background-color: rgb(226, 83, 219);
-}
-.youtube{
+
+
+.fa-youtube {
+    font-size: 40px;
+    color: red;
+    margin-right: 50px;
     position: relative;
-    left: 25%;
-    top: 10%;
-    transition:width 0.2s ease-in;
+    overflow: hidden;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+    left: 9%;
+    top: 25px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
 }
-.youtube:hover{
-    width: 260px;
+
+.fa-facebook {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 165px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+    left: 9%;
+    top: 25px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
 }
+
+.fa-square-instagram {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 345px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+    left: 9%;
+    top: 25px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
 
 
 .footer {
