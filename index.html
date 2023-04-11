@@ -45,28 +45,43 @@
 
 </header>
 
-  
-<div></div>
+
+
     <img class="img1" src="fotot/OxygenIcon.png"width="700px">
-    <img class="img2" src="fotot/QUIZ.png" width="800px">
+    <img class="img2" src="fotot/QUIZ2.png" width="300px">
+
+    <div class="cont">
+      <ul class="list">
+        <li class="oxygenpress"><a href="https://oxygenpress.info/" target="_blank">OxygenPress</a></li>
+        <li class="facebook"> <a href="https://www.facebook.com/oxygenpress/" target="_blank">Facebook</a></li>
+        <li class="instagram"><a href="https://www.instagram.com/besimdinaoxygen/" target="_blank">Instagram</a></li>
+      </ul>
+      <a href="oxygen/youtube" target="https://www.youtube.com/@oxygenshowofficial/videos"><img class="youtube" src="fotot/shp.PNG" alt="" width="250px"></a>
+    </div>
 
 
-</div>  
 
-<footer class ="footer">
-  <p class="sm">Social Media</p>
-  <ul class="list">
-  <li><a href="https://www.facebook.com/oxygenpress/" target="_blank">Facebook</a></li>
-  <li><a href="https://oxygenpress.info/" target="_blank">OxygenPress</a></li>
- <li><a href="https://www.instagram.com/besimdinaoxygen/" target="_blank">Instagram</a></li>
-</ul>
-</footer>
+    <div class="container1">
+      <p class="sm">Social Media</p>
+    </div>
+  
+ 
 <!-- <script src="npm/node_modules/bootstrap/dist/js/bootstrap.bundle.js"> -->
   <script>
 
+const social = document.querySelector('.sm')
+const cont = document.querySelector('.cont')
 const toggleBtn= document.querySelector('.toggle_btn')
 const toggleBtnIcon= document.querySelector('.toggle_btn i')
 const dropDownMenu= document.querySelector('.dropdown_menu')
+
+social.onclick = function() {
+  if (cont.style.display === 'block') {
+    cont.style.display = 'none';
+  } else {
+    cont.style.display = 'block';
+  }
+};
 
 toggleBtn.onclick= function () {
   dropDownMenu.classList.toggle('open')

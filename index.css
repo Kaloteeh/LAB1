@@ -16,6 +16,7 @@ body{
 header{
     position: relative;
     padding: 0.2rem;
+    background-color: #2c0b8e;
 }
 li{
     list-style: none;
@@ -26,11 +27,6 @@ a{
     font-size: 1.10rem;
     transition: font-size 0.2s ease-in-out;
 }
-/* .links a:hover{
-    padding: 2px;
-    font-size: 1.8rem;
-    color:black;
-} */
 
 /* T'i shtohen keto vetem linqeve te cilat nuk jane aktive */
 .links a:not(.active):hover {
@@ -41,21 +37,21 @@ a{
 
 /* Ngjyra e linkut aktiv */
 .links .active{
-    color: rgb(0, 110, 255);
+   border-bottom: 2px solid white;
 }
 
-.links .active:hover {
-    color: rgb(124, 124, 223);
-}
+
 
 .navbar{
     padding-left: 20px;
     width: 100%;
-    height: 90px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
 .buttons {
     margin-right: 30px; 
 }
@@ -111,8 +107,6 @@ a{
         background: #2c0b8e;
     }
 
-    
-
 
 /* Menu DROPDOWN */
 
@@ -130,9 +124,8 @@ a{
     transition:height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
 }
 
-
 .dropdown_menu.open{
-    height: 260px;
+    height: 300px;
 }
 
 .dropdown_menu li{
@@ -141,11 +134,13 @@ a{
    align-items: center;
    justify-content: center; 
 }
+
 .dropdown_menu .action_btn{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 /* DROP DOWN MENU PER EKRANE ME TE VOGLA SE 1124 */
     @media only screen and (max-width: 1124px){
         .navbar .links,
@@ -180,30 +175,95 @@ a{
 }
 .img2{
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-@media only screen and (max-width :700px) {
+@media only screen and (max-width :800px) {
     .img1{
         top: 44%;
         width: 400px;
     }
     .img2{
         top: 52%;
-        width: 500px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width :400px) {
+    .img1{
+        top: 44%;
+        width: 300px;
+    }
+    .img2{
+        top: 52%;
+        width: 100px;
     }
 }
 
 
 .sm{
-    position: relative;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
 
-.sm:hover{
-    
+/* This is for the SOCIAL MEDIA text */
+.container1{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.cont{
+    display: none;
+    border: 2px solid #fff;
+    font-weight: 550;
+    border-radius: 20px;
+    position: absolute;
+    top: 73%;
+    left: 37.5%;
+    height:200px;
+    width: 500px;
+    background-color: rgb(14, 13, 13);
+}
+
+.cont .list{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.cont .list li{
+    /* width: 150px; */
+    align-items: center;
+}
+
+.cont .list li a:hover{ 
+    scale: 1.2rem;
+
+}
+.oxygenpress{
+    border-radius: 10px;
+    background-color: rgb(95, 95, 233);
+}
+.facebook{
+    border-radius: 10px;
+    background-color: rgb(39, 39, 221);
+}
+.instagram{
+    border-radius: 10px;
+    background-color: rgb(226, 83, 219);
+}
+.youtube{
+    position: relative;
+    left: 25%;
+    top: 10%;
+    transition:width 0.2s ease-in;
+}
+.youtube:hover{
+    width: 260px;
 }
 
 
@@ -212,6 +272,9 @@ a{
     background: none;
     color:var(--text-color);
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
     width: 100%;
  }
