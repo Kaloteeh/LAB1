@@ -1,0 +1,43 @@
+.navbar {
+  background-color: rgb(33, 25, 143);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar__logo {
+  padding: 8px;
+  grid-column: 1 / span 2;
+
+  img{
+    height: 50px;
+  }
+}
+
+.navbar__links {
+  
+  padding: 8px;
+  grid-column: 4 / span 1;
+  display: flex;
+  justify-content: space-between;
+
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a:hover{
+    color: rgb(227, 230, 44);
+  }
+
+}
+
+.navbar__links a {
+  margin-left: 10px;
+  margin-right: 40px;
+}

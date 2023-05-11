@@ -1,0 +1,64 @@
+body {
+
+  .admin {
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out; 
+    
+
+  }
+
+  .admin:hover{
+    opacity: 1;
+  }
+
+
+  .aud{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+
+    .container {
+      // background-image: url(../../fotot/Ogi.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+        position: absolute;
+        height: 350px;
+        width: 600px;
+        background-color: rgba(123, 153, 117, 0.205);
+        left: 50%;
+        top: 30%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+        // border: white solid 3px;
+        overflow: hidden; /* prevent child elements from overflowing */
+        box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+      
+       .butoni{
+        position: fixed;
+        top: 150px;
+
+        .but{
+          size: 30rem;
+        }
+       }
+      
+        h1 {
+          -webkit-text-stroke: 0.4px rgb(0, 17, 255);
+          font-family: cursive;
+          height: 100px;
+          font-weight: 600;
+          color: #ffffff; /* set the color of the text or other contents inside the container */
+          z-index: 1; /* set the z-index to 1 to ensure that it appears above the overlay */
+        }
+      }
+}

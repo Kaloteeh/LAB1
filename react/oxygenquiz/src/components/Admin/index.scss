@@ -1,0 +1,41 @@
+.cnt {
+    width: 900px;
+    height: 500px;
+    margin: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr 2fr 2fr 2fr ;
+    grid-gap: 40px;
+
+
+    .tf1{
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+
+    }
+    .tf2{
+        grid-column: 1 / span 1;
+    }
+    .tf3{
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .tf4{
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+
+    }
+    .tf5{
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+
+    }
+    
+    .btn {
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-80%);
+    }
+  }
+  
+  
